@@ -7,7 +7,7 @@ const db = mysql.createConnection({
     host: 'localhost',       // Ganti dengan host MySQL Anda
     user: 'root',            // Ganti dengan username MySQL Anda
     password: '',            // Ganti dengan password MySQL Anda
-    database: 'chat_db'     // Nama database yang sudah dibuat
+    database: 'chat_database'     // Nama database yang sudah dibuat
 });
 
 db.connect((err) => {
